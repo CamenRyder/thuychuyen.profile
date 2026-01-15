@@ -201,12 +201,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.35);
     z-index: 1;
 }
 
 [data-theme="dark"] .hero-banner::after {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.45);
 }
 
 .banner-track {
@@ -444,8 +444,14 @@ body {
 
 .info-item {
     display: flex;
-    align-items: center;
-    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    gap: 6px;
+    padding: 16px 14px;
+    border-radius: 12px;
+    background: var(--bg-section);
 }
 
 .info-icon {
@@ -455,6 +461,7 @@ body {
 .info-item div {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .info-item strong {
@@ -483,6 +490,33 @@ body {
     color: var(--gray);
     margin-bottom: 10px;
     font-size: 1.1rem;
+}
+
+.personality-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.personality-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    gap: 6px;
+    padding: 16px 14px;
+    border-radius: 12px;
+    background: var(--bg-section);
+}
+
+.personality-item strong {
+    color: var(--text-dark);
+    font-size: 0.95rem;
+}
+
+.personality-item span {
+    color: var(--gray);
 }
 
 /* Skills Section */
