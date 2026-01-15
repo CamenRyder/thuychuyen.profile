@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thúy Chuyền - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand" data-i18n="nav.brand">Portfolio</div>
+        <div class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" title="Chuyển chế độ sáng/tối">
+                <span class="theme-icon">🌙</span>
+            </button>
+            <button class="lang-toggle" id="langToggle" title="Chuyển ngôn ngữ">
+                <span>VI</span>
+            </button>
+        </div>
+        <button class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" data-i18n="nav.home">Trang Chủ</a></li>
+            <li><a href="#about" data-i18n="nav.about">Về Tôi</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Kỹ Năng</a></li>
+            <li><a href="#experience" data-i18n="nav.experience">Kinh Nghiệm</a></li>
+            <li><a href="#education" data-i18n="nav.education">Học Vấn</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Liên Hệ</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-banner">
+            <div class="banner-track">
+                <img src="images/home_banner/home_banner_00.jpg" alt="Banner 1">
+                <img src="images/home_banner/home_banner_01.jpg" alt="Banner 2">
+                <img src="images/home_banner/home_banner_02.jpg" alt="Banner 3">
+                <img src="images/home_banner/home_banner_03.jpg" alt="Banner 4">
+                <img src="images/home_banner/home_banner_04.jpg" alt="Banner 5">
+            </div>
+            <button class="banner-arrow prev" id="bannerPrev">&#10094;</button>
+            <button class="banner-arrow next" id="bannerNext">&#10095;</button>
+            <div class="banner-dots">
+                <button class="banner-dot active" data-index="0"></button>
+                <button class="banner-dot" data-index="1"></button>
+                <button class="banner-dot" data-index="2"></button>
+                <button class="banner-dot" data-index="3"></button>
+                <button class="banner-dot" data-index="4"></button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <img src="images/avatar.jpg" alt="Nguyễn Thúy Chuyền">
+            </div>
+            <h1><span data-i18n="hero.greeting">Xin Chào, Tôi Là</span> <span class="highlight" data-i18n="hero.name">Nguyễn Thúy Chuyền</span></h1>
+            <p class="subtitle" data-i18n="hero.subtitle">Giáo Viên Tiếng Anh | Giáo Dục Trẻ Em | Kỹ Năng Sống</p>
+            <a href="#about" class="btn" data-i18n="hero.cta">Tìm Hiểu Thêm</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">Về Tôi</h2>
+            <div class="about-content">
+                <div class="about-objective">
+                    <h3 data-i18n="about.heading">Mục Tiêu Nghề Nghiệp</h3>
+                    <p data-i18n="about.paragraph1">Làm việc thực tế trong lĩnh vực hỗ trợ trẻ em có nhu cầu đặc biệt; học hỏi và ứng dụng hiệu quả các phương pháp can thiệp chuyên nghiệp.</p>
+                    <p data-i18n="about.paragraph2">Hướng tới việc thiết kế và triển khai các chương trình can thiệp cá nhân hóa, phù hợp với nhu cầu và năng lực của trẻ.</p>
+                </div>
+                <div class="about-info">
+                    <h4 data-i18n="about.infoTitle">Thông Tin Cá Nhân</h4>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div>
+                                <strong data-i18n="about.birthday">Ngày sinh</strong>
+                                <span>20/11/2003</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div>
+                                <strong data-i18n="about.phone">Điện thoại</strong>
+                                <span>0366521539</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div>
+                                <strong data-i18n="about.email">Email</strong>
+                                <span>nguyenthuychuyen2011@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div>
+                                <strong data-i18n="about.location">Địa chỉ</strong>
+                                <span>Thuận An, Bình Dương</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div>
+                                <strong data-i18n="about.gender">Giới tính</strong>
+                                <span data-i18n="about.genderValue">Nữ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-personality">
+                    <h4 data-i18n="about.personalityTitle">Tính Cách - Sở Thích</h4>
+                    <p><strong>Tính cách:</strong> <span data-i18n="about.personality">Hòa đồng, kiên nhẫn</span></p>
+                    <p><strong>Sở thích:</strong> <span data-i18n="about.hobbies">Viết lách, vẽ, chơi cùng trẻ</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">Kỹ Năng</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/2593/2593635.png" alt="Listening">
+                    <h3 data-i18n="skills.skill1">Kỹ năng lắng nghe</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/3048/3048398.png" alt="Child interaction">
+                    <h3 data-i18n="skills.skill2">Kỹ năng tương tác với trẻ</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/709/709612.png" alt="Observation">
+                    <h3 data-i18n="skills.skill3">Kỹ năng quan sát</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/1534/1534938.png" alt="Coordination">
+                    <h3 data-i18n="skills.skill4">Kỹ năng điều phối</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Design">
+                    <h3 data-i18n="skills.skill5">Kỹ năng thiết kế cơ bản (Powerpoint, video)</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/1534/1534959.png" alt="Teamwork">
+                    <h3 data-i18n="skills.skill6">Kỹ năng làm việc nhóm</h3>
+                </div>
+                <div class="skill-card">
+                    <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/2721/2721304.png" alt="Office">
+                    <h3 data-i18n="skills.skill7">Kỹ năng tin học văn phòng</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">Kinh Nghiệm Làm Việc</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-info">
+                            <div class="timeline-header">
+                                <h3 class="company-name">Enjoy Learning English Club</h3>
+                                <span class="timeline-period">07/2022 - 04/2023</span>
+                            </div>
+                            <h4 class="job-position">Leader CLB Phát Âm Tiếng Anh cho trẻ 10-15 tuổi (3 chặng)</h4>
+                            <ul class="job-tasks">
+                                <li>Kỹ năng quản lý, trao đổi, điều phối Team tổ chức</li>
+                                <li>Kỹ năng lên kế hoạch và soạn nội dung giảng dạy</li>
+                                <li>Kỹ năng tương tác: Host chính buổi học</li>
+                                <li>Kỹ năng sư phạm cơ bản: dạy phát âm cho nhóm hoặc 1:1</li>
+                            </ul>
+                            <p class="job-note">Số lượng thành viên đăng ký: 10-15. Thành viên đăng ký liên tục 3 chặng: 80%</p>
+                        </div>
+                        <div class="exp-gallery" data-folder="exp_00">
+                            <img src="images/exp_image/exp_00/exp_image_01.JPG" alt="Experience 1">
+                            <img src="images/exp_image/exp_00/exp_image_02.png" alt="Experience 2">
+                            <img src="images/exp_image/exp_00/exp_image_03.png" alt="Experience 3">
+                            <img src="images/exp_image/exp_00/exp_image_04.png" alt="Experience 4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-info">
+                            <div class="timeline-header">
+                                <h3 class="company-name">Trung tâm Trị liệu Alpha</h3>
+                                <span class="timeline-period">09/2023 - 12/2023</span>
+                            </div>
+                            <h4 class="job-position">Thực tập sinh giáo dục trẻ đặc biệt</h4>
+                            <ul class="job-tasks">
+                                <li>Tiến hành tìm hiểu, làm quen và dạy trẻ 1:1</li>
+                                <li>Tương tác, hỗ trợ nhóm trẻ trong giờ học</li>
+                                <li>Lên ý tưởng và thực hiện các hoạt động</li>
+                            </ul>
+                            <p class="job-note">Phát triển kỹ năng quan sát, kỹ năng tương tác với giáo viên và trẻ, sự kiên nhẫn và tập trung cao</p>
+                        </div>
+                        <div class="exp-gallery" data-folder="exp_01">
+                            <img src="images/exp_image/exp_01/exp_image_01.JPG" alt="Experience 1">
+                            <img src="images/exp_image/exp_01/exp_image_02.png" alt="Experience 2">
+                            <img src="images/exp_image/exp_01/exp_image_03.png" alt="Experience 3">
+                            <img src="images/exp_image/exp_01/exp_image_04.png" alt="Experience 4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-info">
+                            <div class="timeline-header">
+                                <h3 class="company-name">Hipo Edu Center</h3>
+                                <span class="timeline-period">06/2024 - Hiện tại</span>
+                            </div>
+                            <h4 class="job-position">Giáo viên Kỹ năng sống, giá trị sống cho trẻ lứa tuổi 5-13</h4>
+                            <ul class="job-tasks">
+                                <li>Dạy trực tiếp, học cách tương tác với học sinh</li>
+                                <li>Giải quyết các tình huống sư phạm</li>
+                                <li>Phân tích và hỗ trợ khi trẻ gặp các vấn đề khó khăn</li>
+                            </ul>
+                            <p class="job-note">Phát triển kỹ năng giảng giải, tương tác với trẻ, và có cơ hội giải quyết các tình huống sư phạm</p>
+                        </div>
+                        <div class="exp-gallery" data-folder="exp_02">
+                            <img src="images/exp_image/exp_02/exp_image_01.JPG" alt="Experience 1">
+                            <img src="images/exp_image/exp_02/exp_image_02.png" alt="Experience 2">
+                            <img src="images/exp_image/exp_02/exp_image_03.png" alt="Experience 3">
+                            <img src="images/exp_image/exp_02/exp_image_04.png" alt="Experience 4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-info">
+                            <div class="timeline-header">
+                                <h3 class="company-name">SUNNYCARE-METTASOUL</h3>
+                                <span class="timeline-period">09/2024 - 01/2025</span>
+                            </div>
+                            <h4 class="job-position">Trợ giảng Kỹ năng sống cho trẻ lứa tuổi 6-17</h4>
+                            <ul class="job-tasks">
+                                <li>Tham gia các khóa training nghiệp vụ sư phạm cho giáo viên</li>
+                                <li>Tổ chức hoạt động trong buổi dạy, điều phối, hỗ trợ giáo viên</li>
+                                <li>Phát triển kỹ năng sư phạm, tương tác với học sinh ở 3 cấp</li>
+                            </ul>
+                        </div>
+                        <div class="exp-gallery" data-folder="exp_03">
+                            <img src="images/exp_image/exp_03/exp_image_01.JPG" alt="Experience 1">
+                            <img src="images/exp_image/exp_03/exp_image_02.png" alt="Experience 2">
+                            <img src="images/exp_image/exp_03/exp_image_03.png" alt="Experience 3">
+                            <img src="images/exp_image/exp_03/exp_image_04.png" alt="Experience 4">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-info">
+                            <div class="timeline-header">
+                                <h3 class="company-name">Hipo Edu Center</h3>
+                                <span class="timeline-period">12/2024 - Hiện tại</span>
+                            </div>
+                            <h4 class="job-position">Giáo Viên Lớp Tiếng Anh</h4>
+                            <ul class="job-tasks">
+                                <li>Hướng dẫn học sinh phát âm, ngữ điệu và diễn đạt cảm xúc bằng tiếng Anh</li>
+                                <li>Tổ chức hoạt động nhóm, luyện tập và trình diễn lồng tiếng sáng tạo</li>
+                                <li>Quan sát - hỗ trợ cá nhân, tăng cường tự tin và khả năng giao tiếp cho học sinh</li>
+                                <li>Tiếp cận các phương pháp giáo dục ngôn ngữ phù hợp</li>
+                            </ul>
+                            <p class="job-note">Phát triển kỹ năng sư phạm và quản lý lớp học hiệu quả. Số lượng học sinh: 50</p>
+                        </div>
+                        <div class="exp-gallery" data-folder="exp_04">
+                            <img src="images/exp_image/exp_04/exp_image_01.JPG" alt="Experience 1">
+                            <img src="images/exp_image/exp_04/exp_image_02.png" alt="Experience 2">
+                            <img src="images/exp_image/exp_04/exp_image_03.png" alt="Experience 3">
+                            <img src="images/exp_image/exp_04/exp_image_04.png" alt="Experience 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Lightbox Image" id="lightboxImg">
+        </div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education.title">Học Vấn</h2>
+            <div class="education-content">
+                <div class="education-main">
+                    <div class="education-card">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-details">
+                            <h3 data-i18n="education.university">Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQG TP.HCM</h3>
+                            <p class="education-period">2021 - 2025</p>
+                            <p class="education-major" data-i18n="education.major">Tâm lý học giáo dục</p>
+                            <p class="education-gpa" data-i18n="education.gpa">GPA: 7.98</p>
+                        </div>
+                    </div>
+
+                    <div class="education-card certification-card">
+                        <div class="education-icon">🏅</div>
+                        <div class="education-details">
+                            <h3 data-i18n="education.ieltsTitle">Chứng chỉ IELTS</h3>
+                            <p class="education-period" data-i18n="education.ieltsYear">Năm cấp: 2025</p>
+                            <p class="education-gpa" data-i18n="education.ieltsScore">Điểm tổng: 5.5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-courses">
+                    <h4 data-i18n="education.coursesTitle">Một số khóa học bổ trợ - Tâm lý, Phát triển bản thân</h4>
+                    <div class="courses-list">
+                        <div class="course-item">
+                            <span class="course-icon">💡</span>
+                            <p data-i18n="education.course1">Lớp EQ (Học về nhận diện và phát triển thông minh cảm xúc lành mạnh)</p>
+                        </div>
+                        <div class="course-item">
+                            <span class="course-icon">🎯</span>
+                            <p data-i18n="education.course2">Kỹ năng Coaching (Học và thực hành 3 kỹ năng: Đặt câu hỏi, phản hồi, lắng nghe)</p>
+                        </div>
+                        <div class="course-item">
+                            <span class="course-icon">🧠</span>
+                            <p data-i18n="education.course3">Làm bạn với suy nghĩ (Tìm hiểu về các khía cạnh của Overthinking)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">Liên Hệ</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span>nguyenthuychuyen2011@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>0366521539</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Thuận An, Bình Dương</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" data-i18n-placeholder="contact.namePlaceholder" placeholder="Họ và tên" required>
+                    <input type="email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="Email" required>
+                    <textarea data-i18n-placeholder="contact.messagePlaceholder" placeholder="Tin nhắn" rows="4" required></textarea>
+                    <button type="submit" class="btn" data-i18n="contact.submit">Gửi Tin Nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p data-i18n="footer.copyright">&copy; 2026 Nguyễn Thúy Chuyền. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

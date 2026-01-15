@@ -1,0 +1,258 @@
+{
+    "vi": {
+        "nav": {
+            "brand": "Portfolio",
+            "home": "Trang Chủ",
+            "about": "Về Tôi",
+            "skills": "Kỹ Năng",
+            "experience": "Kinh Nghiệm",
+            "education": "Học Vấn",
+            "contact": "Liên Hệ"
+        },
+        "hero": {
+            "greeting": "Xin Chào, Tôi Là",
+            "name": "Nguyễn Thúy Chuyền",
+            "subtitle": "Giáo Viên Trẻ đặc biệt | Giáo Dục Trẻ Em | Kỹ Năng Sống",
+            "cta": "Tìm Hiểu Thêm"
+        },
+        "about": {
+            "title": "Về Tôi",
+            "heading": "Mục Tiêu Nghề Nghiệp",
+            "paragraph1": "Làm việc thực tế trong lĩnh vực hỗ trợ trẻ em có nhu cầu đặc biệt; học hỏi và ứng dụng hiệu quả các phương pháp can thiệp chuyên nghiệp.",
+            "paragraph2": "Hướng tới việc thiết kế và triển khai các chương trình can thiệp cá nhân hóa, phù hợp với nhu cầu và năng lực của trẻ.",
+            "infoTitle": "Thông Tin Cá Nhân",
+            "birthday": "Ngày sinh",
+            "phone": "Điện thoại",
+            "email": "Email",
+            "location": "Địa chỉ",
+            "gender": "Giới tính",
+            "genderValue": "Nữ",
+            "personalityTitle": "Tính Cách - Sở Thích",
+            "personality": "Hòa đồng, kiên nhẫn",
+            "hobbies": "Viết lách, vẽ, chơi cùng trẻ"
+        },
+        "skills": {
+            "title": "Kỹ Năng",
+            "skill1": "Kỹ năng lắng nghe",
+            "skill2": "Kỹ năng tương tác với trẻ",
+            "skill3": "Kỹ năng quan sát",
+            "skill4": "Kỹ năng điều phối",
+            "skill5": "Kỹ năng thiết kế cơ bản (Powerpoint, video)",
+            "skill6": "Kỹ năng làm việc nhóm",
+            "skill7": "Kỹ năng tin học văn phòng"
+        },
+        "experience": {
+            "title": "Kinh Nghiệm Làm Việc",
+            "job1": {
+                "company": "Enjoy Learning English Club",
+                "period": "07/2022 - 04/2023",
+                "position": "Leader CLB Phát Âm Tiếng Anh cho trẻ 10-15 tuổi (3 chặng)",
+                "tasks": [
+                    "Kỹ năng quản lý, trao đổi, điều phối Team tổ chức",
+                    "Kỹ năng lên kế hoạch và soạn nội dung giảng dạy",
+                    "Kỹ năng tương tác: Host chính buổi học",
+                    "Kỹ năng sư phạm cơ bản: dạy phát âm cho nhóm hoặc 1:1"
+                ],
+                "note": "Số lượng thành viên đăng ký: 10-15. Thành viên đăng ký liên tục 3 chặng: 80%"
+            },
+            "job2": {
+                "company": "Hipo Edu Center",
+                "period": "12/2024 - Hiện tại",
+                "position": "Giáo Viên Lớp Tiếng Anh",
+                "tasks": [
+                    "Hướng dẫn học sinh phát âm, ngữ điệu và diễn đạt cảm xúc bằng tiếng Anh",
+                    "Tổ chức hoạt động nhóm, luyện tập và trình diễn lồng tiếng sáng tạo",
+                    "Quan sát - hỗ trợ cá nhân, tăng cường tự tin và khả năng giao tiếp cho học sinh",
+                    "Tiếp cận các phương pháp giáo dục ngôn ngữ phù hợp"
+                ],
+                "note": "Phát triển kỹ năng sư phạm và quản lý lớp học hiệu quả. Số lượng học sinh: 50"
+            },
+            "job3": {
+                "company": "Trung tâm Trị liệu Alpha",
+                "period": "09/2023 - 12/2023",
+                "position": "Thực tập sinh giáo dục trẻ đặc biệt",
+                "tasks": [
+                    "Tiến hành tìm hiểu, làm quen và dạy trẻ 1:1",
+                    "Tương tác, hỗ trợ nhóm trẻ trong giờ học",
+                    "Lên ý tưởng và thực hiện các hoạt động"
+                ],
+                "note": "Phát triển kỹ năng quan sát, kỹ năng tương tác với giáo viên và trẻ, sự kiên nhẫn và tập trung cao"
+            },
+            "job4": {
+                "company": "Hipo Edu Center",
+                "period": "06/2024 - Hiện tại",
+                "position": "Giáo viên Kỹ năng sống, giá trị sống cho trẻ lứa tuổi 5-13",
+                "tasks": [
+                    "Dạy trực tiếp, học cách tương tác với học sinh",
+                    "Giải quyết các tình huống sư phạm",
+                    "Phân tích và hỗ trợ khi trẻ gặp các vấn đề khó khăn"
+                ],
+                "note": "Phát triển kỹ năng giảng giải, tương tác với trẻ, và có cơ hội giải quyết các tình huống sư phạm"
+            },
+            "job5": {
+                "company": "SUNNYCARE-METTASOUL",
+                "period": "09/2024 - 01/2025",
+                "position": "Trợ giảng Kỹ năng sống cho trẻ lứa tuổi 6-17",
+                "tasks": [
+                    "Tham gia các khóa training nghiệp vụ sư phạm cho giáo viên",
+                    "Tổ chức hoạt động trong buổi dạy, điều phối, hỗ trợ giáo viên",
+                    "Phát triển kỹ năng sư phạm, tương tác với học sinh ở 3 cấp (cấp 1, cấp 2, cấp 3)"
+                ],
+                "note": ""
+            }
+        },
+        "education": {
+            "title": "Học vấn và chứng chỉ",
+            "university": "Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQG TP.HCM",
+            "period": "2021 - 2025",
+            "major": "Cử nhân Tâm lý học Giáo dục",
+            "gpa": "GPA: 7.98",
+            "ieltsTitle": "Chứng chỉ IELTS",
+            "ieltsYear": "Năm cấp: 2025",
+            "ieltsScore": "Điểm tổng: 5.5",
+            "coursesTitle": "Một số khóa học bổ trợ - Tâm lý, Phát triển bản thân",
+            "course1": "Lớp EQ (Học về nhận diện và phát triển thông minh cảm xúc lành mạnh)",
+            "course2": "Kỹ năng Coaching (Học và thực hành 3 kỹ năng: Đặt câu hỏi, phản hồi, lắng nghe)",
+            "course3": "Làm bạn với suy nghĩ (Tìm hiểu về các khía cạnh của Overthinking)"
+        },
+        "contact": {
+            "title": "Liên Hệ",
+            "namePlaceholder": "Họ và tên",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Tin nhắn",
+            "submit": "Gửi Tin Nhắn",
+            "successMessage": "Cảm ơn bạn đã gửi tin nhắn! Tôi sẽ phản hồi sớm nhất có thể."
+        },
+        "footer": {
+            "copyright": "© 2026 Nguyễn Thúy Chuyền. Tất cả quyền được bảo lưu."
+        }
+    },
+    "en": {
+        "nav": {
+            "brand": "Portfolio",
+            "home": "Home",
+            "about": "About",
+            "skills": "Skills",
+            "experience": "Experience",
+            "education": "Education",
+            "contact": "Contact"
+        },
+        "hero": {
+            "greeting": "Hello, I'm",
+            "name": "Nguyen Thuy Chuyen",
+            "subtitle": "Special children  Teacher | Child Education | Life Skills",
+            "cta": "Learn More"
+        },
+        "about": {
+            "title": "About Me",
+            "heading": "Career Objective",
+            "paragraph1": "Working practically in the field of supporting children with special needs; learning and effectively applying professional intervention methods.",
+            "paragraph2": "Aiming to design and implement personalized intervention programs that suit the needs and abilities of children.",
+            "infoTitle": "Personal Information",
+            "birthday": "Birthday",
+            "phone": "Phone",
+            "email": "Email",
+            "location": "Location",
+            "gender": "Gender",
+            "genderValue": "Female",
+            "personalityTitle": "Personality & Hobbies",
+            "personality": "Friendly, patient",
+            "hobbies": "Writing, drawing, playing with children"
+        },
+        "skills": {
+            "title": "Skills",
+            "skill1": "Listening skills",
+            "skill2": "Child interaction skills",
+            "skill3": "Observation skills",
+            "skill4": "Coordination skills",
+            "skill5": "Basic design skills (Powerpoint, video)",
+            "skill6": "Teamwork skills",
+            "skill7": "Office computing skills"
+        },
+        "experience": {
+            "title": "Work Experience",
+            "job1": {
+                "company": "Enjoy Learning English Club",
+                "period": "07/2022 - 04/2023",
+                "position": "Leader of English Pronunciation Club for children aged 10-15 (3 phases)",
+                "tasks": [
+                    "Team management, communication, and coordination skills",
+                    "Planning and preparing teaching content",
+                    "Interaction skills: Main host of learning sessions",
+                    "Basic pedagogical skills: teaching pronunciation for groups or 1:1"
+                ],
+                "note": "Number of registered members: 10-15. Members registered for all 3 phases: 80%"
+            },
+            "job2": {
+                "company": "Hipo Edu Center",
+                "period": "12/2024 - Present",
+                "position": "English Class Teacher",
+                "tasks": [
+                    "Guide students in pronunciation, intonation, and emotional expression in English",
+                    "Organize group activities, practice, and creative voice-over performances",
+                    "Observe and support individuals, enhance confidence and communication skills",
+                    "Apply appropriate language education methods"
+                ],
+                "note": "Developed pedagogical skills and effective classroom management. Number of students: 50"
+            },
+            "job3": {
+                "company": "Alpha Therapy Center",
+                "period": "09/2023 - 12/2023",
+                "position": "Special Education Intern",
+                "tasks": [
+                    "Conducted research, familiarization, and 1:1 teaching with children",
+                    "Interacted and supported groups of children during classes",
+                    "Developed and implemented activities"
+                ],
+                "note": "Developed observation skills, interaction skills with teachers and children, patience and high concentration"
+            },
+            "job4": {
+                "company": "Hipo Edu Center",
+                "period": "06/2024 - Present",
+                "position": "Life Skills Teacher for children aged 5-13",
+                "tasks": [
+                    "Direct teaching, learning to interact with students",
+                    "Resolving pedagogical situations",
+                    "Analyzing and supporting children facing difficulties"
+                ],
+                "note": "Developed explanation skills, interaction with children, and opportunities to resolve pedagogical situations"
+            },
+            "job5": {
+                "company": "SUNNYCARE-METTASOUL",
+                "period": "09/2024 - 01/2025",
+                "position": "Teaching Assistant for Life Skills for children aged 6-17",
+                "tasks": [
+                    "Participated in pedagogical training courses for teachers",
+                    "Organized activities during teaching sessions, coordinated and supported teachers",
+                    "Developed pedagogical skills, interacting with students at 3 levels (elementary, middle, high school)"
+                ],
+                "note": ""
+            }
+        },
+        "education": {
+            "title": "Education & Certifications",
+            "university": "University of Social Sciences and Humanities - VNU HCMC",
+            "period": "2021 - 2025",
+            "major": "Educational Psychology",
+            "gpa": "GPA: 7.98",
+            "ieltsTitle": "IELTS Certification",
+            "ieltsYear": "Issued year: 2025",
+            "ieltsScore": "Overall score: 5.5",
+            "coursesTitle": "Supplementary Courses - Psychology, Personal Development",
+            "course1": "EQ Class (Learning about identifying and developing healthy emotional intelligence)",
+            "course2": "Coaching Skills (Learning and practicing 3 skills: Questioning, feedback, listening)",
+            "course3": "Making Friends with Thoughts (Understanding aspects of Overthinking)"
+        },
+        "contact": {
+            "title": "Contact",
+            "namePlaceholder": "Full name",
+            "emailPlaceholder": "Email",
+            "messagePlaceholder": "Message",
+            "submit": "Send Message",
+            "successMessage": "Thank you for your message! I will respond as soon as possible."
+        },
+        "footer": {
+            "copyright": "© 2026 Nguyen Thuy Chuyen. All rights reserved."
+        }
+    }
+}
